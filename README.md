@@ -1,5 +1,6 @@
 # my-k8s-project
 This project involves deployment of two applications on kubernetes cluster, terraform is used in provisioning the infracstructure. 
+A portfolio website and microservice app.
 ## Task
 you are to deploy two different app.
 Any webapp of your choice. You can make a simple webpage using html and css and deploy it.

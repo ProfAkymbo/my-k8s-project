@@ -1,5 +1,5 @@
 # my-k8s-project
-This project involves deployment of two applications on kubernetes cluster, terraform is used in provisioning the infracstructure.  
+This CICD project involves deployment of two applications on kubernetes cluster, terraform is used in provisioning the infracstructure.  
 A portfolio website and microservice app. 
 ## Task
 you are to deploy two different app. 

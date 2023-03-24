@@ -19,7 +19,7 @@ resource "aws_route53_record" "eks-record" {
   records = [data.kubernetes_service.ingress-service.status.0.load_balancer.0.ingress.0.hostname]
 }
 
-resource "namecheap_domain_nameservers" "oyebanjiakeem.me" {
+resource "namecheap_domain" "oyebanjiakeem.me" {
   domain_name = "oyebanjiakeem.me"
   nameservers = [
     "${aws_route53_zone.eks-hosted_zone.name_servers.0}",
